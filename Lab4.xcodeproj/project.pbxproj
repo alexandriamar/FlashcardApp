@@ -15,6 +15,8 @@
 		811736D71DADD5B500546EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811736D51DADD5B500546EAC /* LaunchScreen.storyboard */; };
 		811736E21DADD5B500546EAC /* Lab4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811736E11DADD5B500546EAC /* Lab4Tests.m */; };
 		811736ED1DADD5B500546EAC /* Lab4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811736EC1DADD5B500546EAC /* Lab4UITests.m */; };
+		811736FC1DADD88400546EAC /* Flashcard.m in Sources */ = {isa = PBXBuildFile; fileRef = 811736FB1DADD88400546EAC /* Flashcard.m */; settings = {ASSET_TAGS = (); }; };
+		811737051DB6922D00546EAC /* FlashcardsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 811737041DB6922D00546EAC /* FlashcardsModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		811736E81DADD5B500546EAC /* Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		811736EC1DADD5B500546EAC /* Lab4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab4UITests.m; sourceTree = "<group>"; };
 		811736EE1DADD5B500546EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811736FA1DADD88400546EAC /* Flashcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flashcard.h; sourceTree = "<group>"; };
+		811736FB1DADD88400546EAC /* Flashcard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flashcard.m; sourceTree = "<group>"; };
+		811737031DB6922D00546EAC /* FlashcardsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashcardsModel.h; sourceTree = "<group>"; };
+		811737041DB6922D00546EAC /* FlashcardsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashcardsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				811736CD1DADD5B500546EAC /* ViewController.h */,
 				811736CE1DADD5B500546EAC /* ViewController.m */,
 				811736D01DADD5B500546EAC /* Main.storyboard */,
+				811736FA1DADD88400546EAC /* Flashcard.h */,
+				811736FB1DADD88400546EAC /* Flashcard.m */,
+				811737031DB6922D00546EAC /* FlashcardsModel.h */,
+				811737041DB6922D00546EAC /* FlashcardsModel.m */,
 				811736D31DADD5B500546EAC /* Assets.xcassets */,
 				811736D51DADD5B500546EAC /* LaunchScreen.storyboard */,
 				811736D81DADD5B500546EAC /* Info.plist */,
@@ -272,6 +282,8 @@
 			files = (
 				811736CF1DADD5B500546EAC /* ViewController.m in Sources */,
 				811736CC1DADD5B500546EAC /* AppDelegate.m in Sources */,
+				811736FC1DADD88400546EAC /* Flashcard.m in Sources */,
+				811737051DB6922D00546EAC /* FlashcardsModel.m in Sources */,
 				811736C91DADD5B500546EAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +508,7 @@
 				811736F31DADD5B500546EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		811736F41DADD5B500546EAC /* Build configuration list for PBXNativeTarget "Lab4Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				811736F61DADD5B500546EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		811736F71DADD5B500546EAC /* Build configuration list for PBXNativeTarget "Lab4UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				811736F91DADD5B500546EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
